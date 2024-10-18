@@ -1,0 +1,131 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的网站</title>
+    <style>
+        /* Basic Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Style for the header */
+        header {
+            background-image: url('header_background.jpg');
+            background-size: cover;
+            background-position: center;
+            height: 300px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-align: center;
+        }
+
+        /* Style for the navigation menu */
+        nav {
+            background-color: #333;
+            padding: 10px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            display: flex;
+            justify-content: space-around;
+        }
+
+        nav ul li {
+            display: inline;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            font-size: 18px;
+        }
+
+        nav ul li a:hover {
+            background-color: #555;
+            border-radius: 5px;
+        }
+
+        /* Style for the body content */
+        .content {
+            padding: 20px;
+        }
+
+        .gallery {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 20px;
+        }
+
+        .gallery div {
+            width: 30%;
+            padding: 10px;
+            background-color: #f0f0f0;
+        }
+
+        .gallery img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        /* Style for the footer */
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header Section with background image -->
+    <header>
+        <h1>欢迎到我的网站</h1>
+    </header>
+
+    <!-- Navigation Menu -->
+    <nav>
+        <ul>
+            <li><a href="#home">主页</a></li>
+            <li><a href="#about">关于</a></li>
+            <li><a href="#gallery">服务</a></li>
+            <li><a href="#contact">联系</a></li>
+        </ul>
+    </nav>
+
+    <!-- Body Content -->
+    <div class="content">
+        <h2>我们的服务</h2>
+        <div class="gallery">
+            <div>
+                <img src="hotel.jpg" alt="酒店">
+                <p>酒店</p>
+            </div>
+            <div>
+                <img src="food.jpg" alt="餐饮">
+                <p>美食</p>
+            </div>
+            <div>
+                <img src="transportation.jpg" alt="交通">
+                <p>交通</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>联系我们: info@example.com</p>
+        <p>&copy; 我的网站.</p>
+    </footer>
+
+</body>
+</html>
