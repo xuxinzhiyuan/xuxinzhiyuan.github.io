@@ -37,7 +37,6 @@ header {
 
         nav ul li a:link {
             color: white;
-            /*transition: background-color 0.5s;*/
         }
         nav ul li a:visited {
             color: rgb(255,0,255);
@@ -77,6 +76,7 @@ header {
         .gallery img {
             width: 100%;
             height: auto;
+            display: block;
         }
         .gallery p {
             margin-top:25px;
